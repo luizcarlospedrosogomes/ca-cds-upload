@@ -10,6 +10,7 @@
     "express": "^4"
   },
   "devDependencies": {
+    "cds-swagger-ui-express": "^0.6.0",
     "sqlite3": "^5.0.4"
   },
   "scripts": {
