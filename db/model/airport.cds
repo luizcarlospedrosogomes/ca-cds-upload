@@ -4,10 +4,10 @@ namespace manager.airport;
 entity Airplanes : managed {
   key ID : Integer;
   name  : localized String(111);
-  descr  : localized String(1111);  
-  
+  descr  : localized String(1111);    
 }
 
+@cds.persistence.skip
 entity AirplanesUpload : managed {
   @Core.MediaType: mediaType
   content : LargeBinary ;
